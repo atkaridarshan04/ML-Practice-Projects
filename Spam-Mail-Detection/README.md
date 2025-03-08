@@ -30,6 +30,29 @@ This project builds a **Machine Learning Model** to classify emails using **Logi
 
 ---
 
+## 🛠 Spam Detection Mechanism  
+The model detects spam using **high-weighted keywords** commonly found in spam emails. Below are some of the most influential words:
+
+📌 **Top Spam Keywords & Examples:**  
+✅ **"free"** → *"Free entry! Free gift!"*  
+✅ **"win" / "won"** → *"You won a prize!"*  
+✅ **"prize"** → *"Claim your prize now!"*  
+✅ **"cash"** → *"Win cash instantly!"*  
+✅ **"claim"** → *"Claim your reward!"*  
+✅ **"urgent"** → *"Urgent! Act now!"*  
+✅ **"text" / "txt"** → *"Text WIN to 12345!"*  
+✅ **"send"** → *"Send your details now!"*  
+✅ **"contact"** → *"Contact us for details!"*  
+✅ **"mobile"** → *"Mobile offer exclusive for you!"*  
+✅ **"stop"** → *"Reply STOP to unsubscribe!"*  
+✅ **"www" / "com"** → *Spam messages often contain links*  
+✅ **"uk"** → *"Exclusive UK offer!"*  
+✅ **"nokia" / "new"** → *"Win a brand new Nokia phone!"*  
+
+These words commonly appear in spam emails and play a key role in classification.  
+
+---
+
 ## 🧠 Model Training Steps
 
 1. **Data Preprocessing**  
