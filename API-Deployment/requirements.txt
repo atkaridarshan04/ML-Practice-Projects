@@ -1,0 +1,7 @@
+FastAPI
+Uvicorn
+pickle-mixin
+Pydantic
+scikit-learn
+requests 
+pypi-json
